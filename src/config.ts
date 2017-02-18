@@ -10,7 +10,7 @@ export const Config = {
     ROUTESDIR: path.resolve(__dirname + '/routes'),
     // mongoo数据库
     // MONGOURL: 'mongodb://localhost/test'
-    MONGOURL: 'mongodb://24wings:24wings@ds023664.mlab.com:23664/24wings'
+    MONGOURL: 'mongodb://localhost/test'
 
 }
 

@@ -1,35 +1,35 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'D:\\program\\node.exe',
-1 verbose cli   'D:\\program\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli [ 'D:\\software\\node.exe',
+1 verbose cli   'D:\\software\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'start' ]
-2 info using npm@4.1.2
-3 info using node@v7.5.0
+2 info using npm@4.0.5
+3 info using node@v7.4.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle project1@1.0.0~prestart: project1@1.0.0
 6 silly lifecycle project1@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle project1@1.0.0~start: project1@1.0.0
 8 verbose lifecycle project1@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle project1@1.0.0~start: PATH: D:\program\node_modules\npm\bin\node-gyp-bin;E:\workspace\platform\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\program\Git\cmd;D:\program\;;D:\program\Microsoft VS Code\bin;C:\Users\ww005\AppData\Roaming\npm
-10 verbose lifecycle project1@1.0.0~start: CWD: E:\workspace\platform
+9 verbose lifecycle project1@1.0.0~start: PATH: D:\software\node_modules\npm\bin\node-gyp-bin;D:\workspace\platform\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\software\;D:\software\Git\cmd;;D:\software\Microsoft VS Code\bin;C:\Users\21217\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
+10 verbose lifecycle project1@1.0.0~start: CWD: D:\workspace\platform
 11 silly lifecycle project1@1.0.0~start: Args: [ '/d /s /c', 'ts-node src/server' ]
 12 silly lifecycle project1@1.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle project1@1.0.0~start: Failed to exec start script
 14 verbose stack Error: project1@1.0.0 start: `ts-node src/server`
 14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (D:\program\node_modules\npm\lib\utils\lifecycle.js:279:16)
+14 verbose stack     at EventEmitter.<anonymous> (D:\software\node_modules\npm\lib\utils\lifecycle.js:279:16)
 14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at EventEmitter.emit (events.js:192:7)
-14 verbose stack     at ChildProcess.<anonymous> (D:\program\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (D:\software\node_modules\npm\lib\utils\spawn.js:40:14)
 14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at ChildProcess.emit (events.js:192:7)
-14 verbose stack     at maybeClose (internal/child_process.js:890:16)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:885:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid project1@1.0.0
-16 verbose cwd E:\workspace\platform
-17 error Windows_NT 6.1.7600
-18 error argv "D:\\program\\node.exe" "D:\\program\\node_modules\\npm\\bin\\npm-cli.js" "start"
-19 error node v7.5.0
-20 error npm  v4.1.2
+16 verbose cwd D:\workspace\platform
+17 error Windows_NT 10.0.14393
+18 error argv "D:\\software\\node.exe" "D:\\software\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v7.4.0
+20 error npm  v4.0.5
 21 error code ELIFECYCLE
 22 error project1@1.0.0 start: `ts-node src/server`
 22 error Exit status 1
