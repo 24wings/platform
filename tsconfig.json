@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceRoot": "src",
+        "sourceMap": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "outDir": "dist"
+    }
+}
